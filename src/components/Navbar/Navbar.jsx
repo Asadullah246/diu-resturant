@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="navbar bg-base-100 w-full lg:w-[90%] mx-auto">
+      <div className="navbar bg-base-100 w-full lg:w-[90%] mx-auto items-center">
         <div className="navbar-start">
           <ul tabIndex={0} className="hidden  md:inline-flex ">
             <li className="mr-5 text-base">
@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-center">
-          <a className="btn btn-ghost normal-case text-xl">DIU CANTEEN</a>
+          <a className="btn btn-ghost normal-case text-xl tracking-widest font-extrabold">DIU CANTEEN</a>
         </div>
         <div className="navbar-end">
           <button className="btn btn-ghost btn-circle">
@@ -91,11 +91,11 @@ const Navbar = () => {
                 />
               </svg>
 
-              <span className="badge badge-sm indicator-item">8</span>
+              {/* <span className="badge badge-sm indicator-item">8</span> */}
             </div>
           </button>
 
-          <li className="text-base list-none">
+          <li className="text-base list-none mx-3">
             <Link>Menu</Link>
           </li>
           <button className="btn btn-ghost btn-circle">
