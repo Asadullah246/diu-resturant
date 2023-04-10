@@ -8,8 +8,5 @@ body {
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
 .customTransition {
-  transition: ease-in-out 0.9s; 
-}
-.customTransition:hover {
-  display: none;
+  transition: ease-in-out 0.9s;
 }

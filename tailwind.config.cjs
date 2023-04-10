@@ -7,7 +7,8 @@ module.exports = {
         login: "url('/src/assets/hemoImg.jpg)",
       },
       colors: {
-        mainColor: '#ffdf00', 
+        mainColor: '#ffdf00',
+        secondary:'#DC9814',
       },
     },
 
