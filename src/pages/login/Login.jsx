@@ -1,10 +1,10 @@
 import React, { useState, useContext } from "react";
-import heroImg from "../../assets/image2.png";
+import heroImg from "../../assets/home.jpg";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import toast from "react-hot-toast";
-import { AuthContext } from "../../Context/UserContext"; 
+import { AuthContext } from "../../Context/UserContext";
 
 const Login = () => {
   const { signInWithGoogle, signIn,user } = useContext(AuthContext);

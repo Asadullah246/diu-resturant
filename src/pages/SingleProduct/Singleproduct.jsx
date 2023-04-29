@@ -101,6 +101,18 @@ const Singleproduct = () => {
         {/* text div  */}
         <div className="w-[40%]">
            <h4 className="text-3xl">{singleP.name}</h4>
+           <p>{singleP.price}</p>
+           <p>{singleP.desc? singleP.desc:
+           "loremddddddddd ddddddd ddddd dddddddddd dddddddddd dddddddddddd dddddddd dddddddddd ddddddddddddd dddddddddddddd ddddddddddddddddddd"}</p>
+           <p>{singleP.rating? singleP.rating :"rating"}</p>
+           <div className="flex items-center">
+            <p className="flex items-center">
+              <button>-</button>
+              <input type="number" name="" id="" />
+              <button>+</button>
+            </p>
+            <button>Add to cart</button>
+           </div>
         </div>
       </section>
       }

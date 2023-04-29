@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-import heroImg from "../../assets/image1.png";
+import heroImg from "../../assets/home.jpg";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/UserContext"; 
 
